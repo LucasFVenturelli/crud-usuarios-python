@@ -1,5 +1,6 @@
 usuarios = []
 
+
 def criar_usuario(nome, email, senha, cpf):
     for usuario in usuarios:
         if usuario["cpf"] == cpf:
@@ -23,3 +24,5 @@ def deletar_usuario(cpf):
             usuarios.remove(usuario)
             return "Usuário deletado com sucesso"
     return "Usuário não encontrado"
+
+#teste

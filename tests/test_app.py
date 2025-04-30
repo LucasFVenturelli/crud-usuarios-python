@@ -43,5 +43,6 @@ class TestApp(unittest.TestCase):
         resultado = app.deletar_usuario("00000000000")
         self.assertEqual(resultado, "Usuário não encontrado")
 
+#teste
 if __name__ == "_main_":
     unittest.main()
